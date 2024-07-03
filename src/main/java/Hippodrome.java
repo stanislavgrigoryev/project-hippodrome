@@ -1,4 +1,5 @@
 import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -6,7 +7,7 @@ import java.util.List;
 
 import static java.util.Objects.isNull;
 
-@Log4j2
+@Slf4j
 public class Hippodrome {
 
     private final List<Horse> horses;
